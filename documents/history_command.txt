@@ -1,0 +1,29 @@
+
+  112  echo -e "Dogs\nCats\nHumsters" > "Pets"
+  113  echo -e "Horses\nCamels\nDonkeys" > "Pack animals"
+  114  cat "Pets" "Pack animals" > "All animals"
+  115  cat All animals
+  116  cat "All animals"
+  117  mv "All animals" "Human friends"
+  118  ll
+  119  cat "Human friends"
+  120  mkdir human_friends
+  121  mv "Human friends" human_friends/
+  122  cd human_friends/
+  123  ll
+  124  cat "Human friends"
+  125  sudo apt update
+  126  sudo apt install wget
+  127  wget https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+  128  sudo apt-key add RPM-GPG-KEY-mysql-2022
+  129  sudo add-apt-repository 'deb http://repo.mysql.com/apt/ubuntu/ focal mysql-8.0'
+  130  sudo apt update
+  131  sudo apt install mysql-server
+  132  wget http://archive.ubuntu.com/ubuntu/pool/universe/h/htop/htop_2.2.0-1build1_amd64.deb
+  133  wget http://archive.ubuntu.com/ubuntu/pool/universe/h/htop/htop_3.0.5-7_amd64.deb
+  134  wget http://archive.ubuntu.com/ubuntu/pool/main/c/curl/curl_7.68.0-1ubuntu2_amd64.deb
+  135  sudo dpkg -i curl_7.68.0-1ubuntu2_amd64.deb
+  136  curl
+  137  curl --help
+  138  sudo dpkg -r curl
+  139  history > history_command.txt
